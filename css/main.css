@@ -144,13 +144,13 @@ footer{
     
 .card{
     background-position: center;
-    background: url('/img/fresh.png')  no-repeat;
+    background: url('img/fresh.png')  no-repeat;
     background-size: cover;
     margin: 0 30px;
 }
 .card-2{
     background-position: center;
-    background: url('/img/fresh-2.png') no-repeat;
+    background: url('img/fresh-2.png') no-repeat;
     background-size: cover;
 }
 .container__footer{
