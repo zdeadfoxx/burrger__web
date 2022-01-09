@@ -153,11 +153,19 @@ footer{
     background: url('../img/fresh-2.png') no-repeat;
     background-size: cover;
 }
+.footer__logo{
+    
+}
 .container__footer{
     max-width: 1180px;
     margin: 0 auto;
-    display: flex;
-    justify-content: center;
+}
+.between{
+display: flex;
+}
+.navigation{
+    margin: 0 40px;
+   
 }
 .footer__text{
     text-transform: uppercase;
@@ -187,4 +195,8 @@ text-transform: uppercase;
 
 color: #FBB731;
 
+}
+.text{
+    display: flex;
+    flex-direction: column;
 }
