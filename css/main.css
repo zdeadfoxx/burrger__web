@@ -75,13 +75,13 @@ a {
     height: 100%;
     background: linear-gradient(2.42deg, #F37335 -19.6%, #FBB731 100.79%, #FDC830 100.79%);
 }
-img {
+.burrger {
     width: 829px;
     position: absolute;
     right: -240px;
     top: 0px;
-    
 }
+
 .card__order{
     display: flex;
     justify-content: center;
@@ -93,7 +93,6 @@ img {
     grid-template-columns: minmax(auto,700px);
 }
 .card__body{
-background-color: blueviolet;
   margin: 0 20px;
   padding: 100px;
 
@@ -107,21 +106,24 @@ background-color: blueviolet;
     text-transform: uppercase;
     width: 100px;
     display: block;
+    margin-bottom: 10px;
 
 }
 .active{
     border: 1px solid #F37335;
-    border-radius: 100%;
+    border-radius: 14px;
     background: #F37335;
     text-align: center;
-    padding: 28px;
+    padding: 10px;
 }
 .card__title{
-    font-weight: 900;
+    font-weight: bold;
     font-size: 60px;
     line-height: 76px;
     color: #fff;
-    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 20px;
+
 }
 .card__text{
     font-family: 'Lato', sans-serif; 
@@ -129,6 +131,8 @@ background-color: blueviolet;
     font-size: 15px;
     line-height: 24px;
     color: #FAF9F9;
+
+
 }
 footer{
     background-color: #1E2F40;
@@ -138,6 +142,16 @@ footer{
     justify-content: space-between;
 }
     
+.card{
+    background-position: center;
+    background: url('/img/fresh.png')  no-repeat;
+    background-size: cover;
+    margin: 0 30px;
+}
+.card-2{
+    background-position: center;
+    background: url('/img/fresh-2.png') no-repeat;
+    background-size: cover;
 }
 .container__footer{
     max-width: 1180px;
