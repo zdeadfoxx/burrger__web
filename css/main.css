@@ -53,7 +53,7 @@ p {
     line-height: 1.4;
     margin-bottom: 42px;
 }
-a {
+.btn {
     color: #1E2F40;
     background-color: #FBB731;
     border-radius: 5px;
@@ -158,4 +158,33 @@ footer{
     margin: 0 auto;
     display: flex;
     justify-content: center;
+}
+.footer__text{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 38px;
+    color: #fff;
+}
+li{
+    list-style: none;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    color: #DEDEDE;
+    font-weight: normal;
+}
+span{
+    font-weight: bold;
+}
+.footer__phone{
+    font-family: 'Nunito Sans',sans-serif;
+font-weight: 800;
+font-size: 20px;
+line-height: 38px;
+
+text-transform: uppercase;
+
+color: #FBB731;
+
 }
